@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import HeaderCircle from "./components/CircleHeader.vue";
+import HeaderTitle from "./components/HeaderTitle.vue";
 
 </script>
 
 <template>
   <HeaderCircle>
     <div class="content">
-      <h1>titre</h1>
+      <HeaderTitle />
     </div>
   </HeaderCircle>
 </template>
